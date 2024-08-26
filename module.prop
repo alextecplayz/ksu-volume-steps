@@ -1,0 +1,7 @@
+id=ksu-volume-steps
+name=KSU Volume Steps
+version=1.0
+versionCode=1
+author=AlexTECPlayz
+description=A KernelSU-compatible volume steps changer for the system build.prop
+support=https://github.com/alextecplayz/ksu-volume-steps
