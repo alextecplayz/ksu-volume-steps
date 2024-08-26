@@ -1,0 +1,7 @@
+# ksu-volume-steps
+# customize these values, anywhere from 1 to 100
+# it works by dividing 100 / step = volume changed %
+ro.config.vc_call_vol_steps=25
+ro.config.media_vol_steps=50
+ro.config.alarm_vol_steps=50
+ro.config.system_vol_steps=50
