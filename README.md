@@ -8,6 +8,8 @@ So, if you give vc_call_vol 20 steps, the volume will change by 5%. I don't reco
 
 But this **may depend on the OEM / ROM used by the device!** Some OEMs and ROMs may limit the amount of steps, or deny modification of the steps altogether, returning back to default values. Unless I can see the source code of the [AudioService.java](https://android.googlesource.com/platform/frameworks/base.git/+/master/services/core/java/com/android/server/audio/AudioService.java) file, I can't help you, unfortunately.
 
+The module also now disables the safe media warning (if the volume is too loud, you'd get a popup informing you of that), but you can remove it if you'd like, set it to false or delete the line.
+
 ## How to use:
 #### KernelSU Module
 1. Download the [repository](https://github.com/alextecplayz/ksu-volume-steps/archive/refs/heads/main.zip) or the .zip file from the [Releases](https://github.com/alextecplayz/ksu-volume-steps/releases) tab, which might not always be up-to-date\
